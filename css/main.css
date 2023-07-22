@@ -7,6 +7,27 @@
     flex: 6;
   }
 }
+@media (max-width: 768px) {
+  body {
+    overflow: auto;
+  }
+  #right {
+    display: none;
+  }
+  #left {
+    justify-content: start;
+    margin-top: 4vh;
+  }
+  #signin logo {
+    margin-bottom: 2vh;
+  }
+  #signin .text-input {
+    margin-bottom: 0.7rem;
+  }
+  #main-footer {
+    padding-top: 1rem;
+  }
+}
 #signin {
   display: flex;
   flex-direction: column;
@@ -128,9 +149,21 @@
   height: 100vh;
   text-align: center;
 }
+#showcase .showcase-text {
+  font-size: 3rem;
+  width: 100%;
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+#showcase .secondary-btn {
+  width: 60%;
+  margin: auto;
+}
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -166,6 +199,7 @@ h6 {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  margin-bottom: 20px;
 }
 
 #right {

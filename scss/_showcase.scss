@@ -5,4 +5,16 @@
   background: url('') no-repeat center center / cover;
   height: 100vh;
   text-align: center;
+
+  .showcase-text {
+    font-size: 3rem;
+    width: 100%;
+    color: #fff;
+    margin-bottom: 1.5rem;
+  }
+
+  .secondary-btn {
+    width: 60%;
+    margin: auto;
+  }
 }
