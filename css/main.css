@@ -79,7 +79,7 @@
   text-decoration: none;
   cursor: pointer;
   text-align: center;
-  transition: background-color all 0.5s;
+  transition: all 0.5s;
 }
 .primary-btn:hover {
   background: #ff7b39;
@@ -118,6 +118,15 @@
 #main-footer a {
   color: #f96816;
   text-decoration: underline;
+}
+
+#showcase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("") no-repeat center center/cover;
+  height: 100vh;
+  text-align: center;
 }
 
 * {
